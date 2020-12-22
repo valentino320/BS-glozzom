@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/fontawesome_all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Bootstrap 5 Theme - Blog Page</title>
+  </head>
+
+  <body>
+    <!-- MAIN NAV-->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid mx-5">
+        <a href="index.html" class="navbar-brand">Glozzom</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="text-end navbar-collapse ms-auto" id="navbarCollapse">
+          <ul class="navbar-nav pt-2">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About&nbsp;Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link active">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- PAGE HEADER-->
+    <header id="blog-header">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <h1>Read Or Blog</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            placeat cumque reprehenderit inventore beatae incidunt officiis,
+            optio asperiores cupiditate debitis eum nisi ducimus eligendi sit
+            itaque voluptate omnis sunt natus porro.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- BLOG SECTION -->
+    <section id="blog" class="py-3">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <!--Card#1-->
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://source.unsplash.com/random/300x200"
+                alt="random photo"
+                class="img-fluid card-img-top"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Blog Post #1</h4>
+                <small class="text-muted">written by Jeff on 05/10</small>
+                <hr />
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. A
+                  minima unde consequatur quam illo hic excepturi magni, earum
+                  quas, quis eveniet? Praesentium explicabo dignissimos a
+                  possimus. Ex possimus eum reiciendis?
+                </p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <blockquote class="card-blockquote card-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nostrum a quod minima veniam omnis, suscipit fugiat impedit
+                  adipisci illum assumenda cum dicta molestiae iusto?
+                </p>
+                <footer class="blockquote-footer">
+                  <small class="text-muted"
+                    >Someone Famous in
+                    <cite title="Source Title">Source Title</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+          <!--eof Card#1-->
+          <!--Card#2-->
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://source.unsplash.com/random/299x200"
+                alt="random photo"
+                class="img-fluid card-img-top"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Blog Post #2</h4>
+                <small class="text-muted">written by Carl on 06/11</small>
+                <hr />
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+                  laborum sequi illo excepturi nihil eveniet, provident magni
+                  ducimus?
+                </p>
+              </div>
+            </div>
+            <div class="card p-3 bg-danger text-white">
+              <blockquote class="card-blockquote card-body">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Atque.
+                </p>
+                <footer class="blockquote-footer text-white">
+                  <small
+                    >Someone Famous in
+                    <cite title="Source Title">Source Title</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+          <!--oef Card#2-->
+          <!--Card#3-->
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://source.unsplash.com/random/298x200"
+                alt="random photo"
+                class="img-fluid card-img-top"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Blog Post #3</h4>
+                <small class="text-muted">written by Eve on 16/11</small>
+                <hr />
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                  cumque possimus error dolorum quos commodi totam alias
+                  explicabo voluptates.
+                </p>
+              </div>
+            </div>
+            <div class="card p-3 bg-success text-white">
+              <blockquote class="card-blockquote card-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Beatae non deleniti veritatis impedit illum cumque!
+                </p>
+                <footer class="blockquote-footer text-white">
+                  <small
+                    >Someone Famous in
+                    <cite title="Source Title">Source Title</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+          <!--oef Card#3-->
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Copyright &copy; <span id="year"></span> Glozzom</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script>
+      // Get the current year for the copyrightF
+      $("#year").text(new Date().getFullYear());
+    </script>
+  </body>
+</html>
